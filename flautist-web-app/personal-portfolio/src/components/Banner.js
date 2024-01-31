@@ -65,11 +65,9 @@ export const Banner = () => {
                   }
                 >
                   <span className="tagline">
-                    Welcome to The Official Website of
+                    Welcome to The Official Website of <br></br> CHIRANTAN
+                    BEGOOR
                   </span>
-                  <div>
-                    <span className="tagline">CHIRANTAN BEGOOR</span>
-                  </div>
                   <h1>
                     {`Hi! I'm Chirantan Begoor`}{" "}
                     <span

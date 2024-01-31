@@ -32,7 +32,7 @@ body {
   overflow-x: hidden;
   position: relative;
   background-color: #646460 !important;
-  color: rgb(214, 214, 4) !important;
+  color: rgb(251, 251, 251) !important;
   font-family: "Centra", sans-serif !important;
 }
 
@@ -94,7 +94,6 @@ p.danger {
 }
 /************ Navbar Css ************/
 
-
 /************ Banner Css ************/
 
 @keyframes updown {
@@ -111,14 +110,6 @@ p.danger {
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
-
-/************ Projects Css ************/
-
-
-/************ Projects Css ************/
-
-
-/************ Footer Css ************/
 
 .newsletter-bx {
   background: #a0a20f;
@@ -180,4 +171,3 @@ p.danger {
   letter-spacing: 0.5px;
   border-radius: 18px;
 }
-

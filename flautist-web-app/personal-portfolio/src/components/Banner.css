@@ -7,19 +7,18 @@
   background-repeat: no-repeat;
 }
 .banner .tagline {
-  font-family: "Gill Sans", sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.8px;
-  padding: 8px 10px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  padding: 15px 20px;
   background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(10, 9, 9, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
 }
 .banner h1 {
   font-size: 44px;
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
   letter-spacing: 0.8px;
   line-height: 1;
