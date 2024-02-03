@@ -1,11 +1,14 @@
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url("");
+  background-image: url("../assets/img/DSC_7594-modified.png");
   background-position: top center;
+  background-position-y: 24%;
+  image-rendering: crisp-edges;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .banner .tagline {
   font-weight: 200;
   letter-spacing: 2px;
