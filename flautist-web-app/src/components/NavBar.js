@@ -47,8 +47,7 @@ export const NavBar = () => {
                 className={
                   activeLink === "home" ? "active navbar-link" : "navbar-link"
                 }
-                onClick={() => onUpdateActiveLink("home")}
-              >
+                onClick={() => onUpdateActiveLink("home")}>
                 Home
               </Nav.Link>
               <Nav.Link
@@ -56,42 +55,28 @@ export const NavBar = () => {
                 className={
                   activeLink === "bio" ? "active navbar-link" : "navbar-link"
                 }
-                onClick={() => onUpdateActiveLink("bio")}
-              >
+                onClick={() => onUpdateActiveLink("bio")}>
                 Bio
               </Nav.Link>
               <Nav.Link
-                href="#projects"
+                href="#gallery"
                 className={
-                  activeLink === "projects"
+                  activeLink === "gallery"
                     ? "active navbar-link"
                     : "navbar-link"
                 }
-                onClick={() => onUpdateActiveLink("projects")}
-              >
-                My Music
-              </Nav.Link>
-              <Nav.Link
-                href="#projects"
-                className={
-                  activeLink === "projects"
-                    ? "active navbar-link"
-                    : "navbar-link"
-                }
-                onClick={() => onUpdateActiveLink("projects")}
-              >
-                Links
-              </Nav.Link>
-              <Nav.Link
-                href="#projects"
-                className={
-                  activeLink === "projects"
-                    ? "active navbar-link"
-                    : "navbar-link"
-                }
-                onClick={() => onUpdateActiveLink("projects")}
-              >
+                onClick={() => onUpdateActiveLink("gallery")}>
                 Gallery
+              </Nav.Link>
+              <Nav.Link
+                href="#mymusic"
+                className={
+                  activeLink === "mymusic"
+                    ? "active navbar-link"
+                    : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("mymusic")}>
+                My Music
               </Nav.Link>
             </Nav>
             <span className="navbar-text">

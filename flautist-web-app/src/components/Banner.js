@@ -62,8 +62,7 @@ export const Banner = () => {
                 <div
                   className={
                     isVisible ? "animate__animated animate__fadeIn" : ""
-                  }
-                >
+                  }>
                   <span className="tagline">
                     Welcome to The Official Website of <br></br> CHIRANTAN
                     BEGOOR
@@ -73,14 +72,16 @@ export const Banner = () => {
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "Musician", "Flautist", "Teacher" ]'
-                    >
+                      data-rotate='[ "Musician", "Flautist", "Teacher" ]'>
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
                   <p>
-                    Website for flautist chirantan This website is still a WORK
-                    IN PROGRESS !
+                    Chirantan K Begoor, a disciple of Pandit Parameshwar Hegde,
+                    who is an eminent flautist, having learned and practiced the
+                    art for more than 20 years. He presents his recital in the
+                    traditional khayal ang, adhering to the principle of purity
+                    of raga and rasa.
                   </p>
                   <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />
