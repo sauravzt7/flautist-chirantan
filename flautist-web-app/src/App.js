@@ -6,6 +6,7 @@ import { Bio } from "./components/Bio";
 import { Gallery } from "./components/Gallery";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import { MyMusic } from "./components/MyMusic";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <Banner />
       <Bio />
       <Gallery />
+      <MyMusic />
+
       <Contact />
       <Footer />
     </div>

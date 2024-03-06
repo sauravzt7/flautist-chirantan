@@ -23,28 +23,28 @@ export const Contact = () => {
     });
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setButtonText("Sending...");
-    let response = await fetch("http://localhost:5000/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(formDetails),
-    });
-    setButtonText("Send");
-    let result = await response.json();
-    setFormDetails(formInitialDetails);
-    if (result.code == 200) {
-      setStatus({ succes: true, message: "Message sent successfully" });
-    } else {
-      setStatus({
-        succes: false,
-        message: "Something went wrong, please try again later.",
-      });
-    }
-  };
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   setButtonText("Sending...");
+  //   let response = await fetch("http://localhost:5000/contact", {
+  //     method: "POST",
+  //     headers: {
+  //       "Content-Type": "application/json;charset=utf-8",
+  //     },
+  //     body: JSON.stringify(formDetails),
+  //   });
+  //   setButtonText("Send");
+  //   let result = await response.json();
+  //   setFormDetails(formInitialDetails);
+  //   if (result.code == 200) {
+  //     setStatus({ succes: true, message: "Message sent successfully" });
+  //   } else {
+  //     setStatus({
+  //       succes: false,
+  //       message: "Something went wrong, please try again later.",
+  //     });
+  //   }
+  // };
 
   return (
     <section className="contact" id="connect">
@@ -69,11 +69,10 @@ export const Contact = () => {
                 <div
                   className={
                     isVisible ? "animate__animated animate__fadeIn" : ""
-                  }
-                >
+                  }>
                   <h2>Get In Touch</h2>
-                  <form onSubmit={handleSubmit}>
-                    <Row>
+                  <form>
+                    {/* <Row>
                       <Col size={12} sm={6} className="px-1">
                         <input
                           type="text"
@@ -121,19 +120,51 @@ export const Contact = () => {
                           placeholder="Message"
                           onChange={(e) =>
                             onFormUpdate("message", e.target.value)
-                          }
-                        ></textarea>
-                        <button type="submit">
-                          <span>{buttonText}</span>
-                        </button>
+                          }></textarea>
                       </Col>
                       {status.message && (
                         <Col>
                           <p
                             className={
                               status.success === false ? "danger" : "success"
-                            }
-                          >
+                            }>
+                            {status.message}
+                          </p>
+                        </Col>
+                      )} */}
+                    {/* </Row> */}
+
+                    <Row>
+                      <Col
+                        size={12}
+                        sm={6}
+                        className="px-1"
+                        style={{ display: "flex", alignItems: "center" }}>
+                        <img
+                          src="path/to/your/gmail-logo.png"
+                          alt="Gmail Logo"
+                          style={{ marginRight: "10px" }}
+                        />
+                        <p>Email Address: example@email.com</p>
+                      </Col>
+                      <Col
+                        size={12}
+                        sm={6}
+                        className="px-1"
+                        style={{ display: "flex", alignItems: "center" }}>
+                        <img
+                          src="path/to/your/whatsapp-logo.png"
+                          alt="WhatsApp Logo"
+                          style={{ marginRight: "10px" }}
+                        />
+                        <p>WhatsApp No.: +1234567890</p>
+                      </Col>
+                      {status.message && (
+                        <Col>
+                          <p
+                            className={
+                              status.success === false ? "danger" : "success"
+                            }>
                             {status.message}
                           </p>
                         </Col>
