@@ -98,7 +98,6 @@ export const MyMusic = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
     </section>
   );
 };

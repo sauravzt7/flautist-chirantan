@@ -1,9 +1,10 @@
 .footer {
   padding: 0 0 50px 0;
-  background-image: url("../assets/img/footer-bg.png");
+
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #634d2a;
 }
 .footer img {
   width: 26%;
@@ -11,7 +12,6 @@
 .footer p {
   font-weight: 400;
   font-size: 14px;
-  color: #b8b8b8;
   letter-spacing: 0.5px;
   margin-top: 20px;
 }

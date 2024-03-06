@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
+import whatsappImg from "../assets/img/icons8-whatsapp.svg";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 import "./Contact.css";
@@ -141,7 +142,7 @@ export const Contact = () => {
                         className="px-1"
                         style={{ display: "flex", alignItems: "center" }}>
                         <img
-                          src="path/to/your/gmail-logo.png"
+                          src={whatsappImg}
                           alt="Gmail Logo"
                           style={{ marginRight: "10px" }}
                         />
@@ -153,7 +154,7 @@ export const Contact = () => {
                         className="px-1"
                         style={{ display: "flex", alignItems: "center" }}>
                         <img
-                          src="path/to/your/whatsapp-logo.png"
+                          src={whatsappImg}
                           alt="WhatsApp Logo"
                           style={{ marginRight: "10px" }}
                         />

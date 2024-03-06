@@ -16,7 +16,6 @@ function App() {
       <Bio />
       <Gallery />
       <MyMusic />
-
       <Contact />
       <Footer />
     </div>
