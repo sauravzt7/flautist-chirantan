@@ -64,11 +64,11 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }>
                   <span className="tagline">
-                    Welcome to The Official Website of <br></br> CHIRANTAN
+                    Welcome to The Official Website of <br></br> CHIRANTAN K
                     BEGOOR
                   </span>
                   <h1>
-                    {`Hi! I'm Chirantan Begoor`}{" "}
+                    {`Hi! I'm Chirantan K Begoor`}{" "}
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
@@ -77,11 +77,11 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    Chirantan K Begoor, a disciple of Pandit Parameshwar Hegde,
-                    who is an eminent flautist, having learned and practiced the
-                    art for more than 20 years. He presents his recital in the
-                    traditional khayal ang, adhering to the principle of purity
-                    of raga and rasa.
+                    <strong>Chirantan K Begoor</strong>, a disciple of{" "}
+                    <strong>Pandit Parameshwar Hegde</strong>, who is an eminent
+                    flautist, having learned and practiced the art for more than
+                    20 years. He presents his recital in the traditional khayal
+                    ang, adhering to the principle of purity of raga and rasa.
                   </p>
                   <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />

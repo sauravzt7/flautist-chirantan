@@ -5,6 +5,10 @@ import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import colorSharp from "../assets/img/color-sharp.png";
+import image1 from "../assets/img/img1.jpeg";
+import image2 from "../assets/img/img2.jpeg";
+import image3 from "../assets/img/img3.jpeg";
+import image4 from "../assets/img/img4.jpeg";
 import "./Bio.css";
 
 export const Bio = () => {
@@ -70,20 +74,20 @@ export const Bio = () => {
                 infinite={true}
                 className="owl-carousel owl-theme bio-slider">
                 <div className="item">
-                  <img src={meter1} alt="Achievement" />
-                  <h5>Global Reach</h5>
+                  <img src={image1} alt="Achievement" />
+                  <h5></h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Brand Identity" />
-                  <h5>Cultural Heritage</h5>
+                  <img src={image2} alt="Brand Identity" />
+                  {/* <h5>Cultural Heritage</h5> */}
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Logo Design" />
-                  <h5>Inspiring Mentorship</h5>
+                  <img src={image3} alt="Logo Design" />
+                  {/* <h5>Inspiring Mentorship</h5> */}
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="Web Development" />
-                  <h5>Artistic Excellence</h5>
+                  <img src={image4} alt="Web Development" />
+                  {/* <h5>Artistic Excellence</h5> */}
                 </div>
               </Carousel>
               <p className="mt-4">

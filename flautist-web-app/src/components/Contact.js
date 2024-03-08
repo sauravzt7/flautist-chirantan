@@ -146,7 +146,7 @@ export const Contact = () => {
                           alt="Gmail Logo"
                           style={{ marginRight: "10px" }}
                         />
-                        <p>Email Address: example@email.com</p>
+                        <p>Email Address: begoor.chirantan72@gmail.com</p>
                       </Col>
                       <Col
                         size={12}
@@ -158,7 +158,7 @@ export const Contact = () => {
                           alt="WhatsApp Logo"
                           style={{ marginRight: "10px" }}
                         />
-                        <p>WhatsApp No.: +1234567890</p>
+                        <p>WhatsApp No.: +919686170664</p>
                       </Col>
                       {status.message && (
                         <Col>
