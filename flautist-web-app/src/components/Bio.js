@@ -46,13 +46,15 @@ export const Bio = () => {
                 <strong>Pandit Puttaraj Gavayi</strong>.
               </p>
               <p>
-                His journey took a pivotal turn as he embraced the dual
-                disciplines of <strong>vocal and flute</strong>, further honed
-                under the tutelage of <strong>Pandit Parameshwar Hegde</strong>.
                 By the age of <strong>10</strong>, the stage became his second
                 home, showcasing his talent on{" "}
                 <strong>prestigious platforms</strong> like Hampi Utsav and
-                Gavisiddeshwara Jatra Mahotsav Koppala, among others.
+                Gavisiddeshwara Jatra Mahotsav Koppala, among others. His
+                journey took a pivotal turn as he embraced the dual disciplines
+                of <strong>vocal and flute</strong>, further honed under the
+                tutelage of <strong>Pandit Parameshwar Hegde</strong>. He not
+                only expanded the scope of his repertoire under his tutelage,
+                but his performance and technique also saw notable advancements.
               </p>
               <p>
                 Recognition followed, as evidenced by a{" "}
