@@ -140,26 +140,28 @@ export const Contact = () => {
                         size={12}
                         sm={6}
                         className="px-1"
-                        style={{ display: "flex", alignItems: "center" }}>
-                        <img
-                          src={whatsappImg}
-                          alt="Gmail Logo"
-                          style={{ marginRight: "10px" }}
-                        />
+                        style={{ display: "flex" }}>
                         <p>Email Address: begoor.chirantan72@gmail.com</p>
                       </Col>
                       <Col
                         size={12}
                         sm={6}
                         className="px-1"
-                        style={{ display: "flex", alignItems: "center" }}>
-                        <img
-                          src={whatsappImg}
-                          alt="WhatsApp Logo"
-                          style={{ marginRight: "10px" }}
-                        />
-                        <p>WhatsApp No.: +919686170664</p>
+                        style={{ display: "flex" }}>
+                        <p>
+                          WhatsApp No.: <br></br>+919686170664
+                        </p>
                       </Col>
+                      {status.message && (
+                        <Col>
+                          <p
+                            className={
+                              status.success === false ? "danger" : "success"
+                            }>
+                            {status.message}
+                          </p>
+                        </Col>
+                      )}
                     </Row>
                   </form>
                 </div>
