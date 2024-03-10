@@ -28,11 +28,13 @@ export const Banner = () => {
   const tick = () => {
     let i = loopNum % toRotate.length;
     let fullText = toRotate[i];
+    console.log("fullText", fullText);
     let updatedText = isDeleting
       ? fullText.substring(0, text.length - 1)
       : fullText.substring(0, text.length + 1);
 
     setText(updatedText);
+    console.log("text", text);
 
     if (isDeleting) {
       setDelta((prevDelta) => prevDelta / 2);
@@ -69,11 +71,8 @@ export const Banner = () => {
                   </span>
                   <h1>
                     {`Hi! I'm Chirantan K Begoor`}{" "}
-                    <span
-                      className="txt-rotate"
-                      dataPeriod="1000"
-                      data-rotate='[ "Musician", "Flautist", "Teacher" ]'>
-                      <span className="wrap">{text}</span>
+                    <span>
+                      <span>{text}</span>
                     </span>
                   </h1>
                   <p>
@@ -83,9 +82,6 @@ export const Banner = () => {
                     20 years. He presents his recital in the traditional khayal
                     ang, adhering to the principle of purity of raga and rasa.
                   </p>
-                  <button onClick={() => console.log("connect")}>
-                    Let’s Connect <ArrowRightCircle size={25} />
-                  </button>
                 </div>
               )}
             </TrackVisibility>

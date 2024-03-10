@@ -160,17 +160,6 @@ export const Contact = () => {
                         />
                         <p>WhatsApp No.: +919686170664</p>
                       </Col>
-                      {status.message &&
-                        {
-                          /* <Col>
-                          <p
-                            className={
-                              status.success === false ? "danger" : "success"
-                            }>
-                            {status.message}
-                          </p>
-                        </Col> */
-                        }}
                     </Row>
                   </form>
                 </div>

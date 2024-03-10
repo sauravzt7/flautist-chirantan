@@ -1,6 +1,5 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { GalleryCard } from "./GalleryCard";
-
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 import "./Gallery.css";

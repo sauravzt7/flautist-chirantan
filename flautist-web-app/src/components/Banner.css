@@ -19,6 +19,11 @@
   margin-bottom: 16px;
   display: inline-block;
 }
+
+.banner div {
+  width: 100%; /* Ensures the div takes up the full width of its parent */
+}
+
 .banner h1 {
   font-size: 44px;
   font-weight: 400;
@@ -33,7 +38,7 @@
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  width: 96%;
+  width: 50%;
 }
 .banner button {
   color: #fff;
